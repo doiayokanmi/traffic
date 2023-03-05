@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.housecon {
+    height: 45vh;
+    background: url(image/cloud.jpg);
+    background-size: cover;
+    display: flex;
+    padding: 30px 20px 0 20px;
+
+
+}
+
+.house1 {
+    height: 240px;
+}
+
+.house2 {
+    height: 250px;
+
+}
+
+.aero {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    animation: aero 3s linear  infinite;
+    transform: translate(-300px, 20px);
+}
+
+@keyframes aero {
+    100% {
+        transform: translate(1160px, -90px);
+    }
+    
+}
+
+.leg {
+    height: 8vh;
+    background-color: blanchedalmond;
+}
+
+.road {
+    height: 40vh;
+    background: url(image/road.jpg);
+    background-size: contain;
+}
+
+.car1 {
+    width: 200px;
+    height: 200px;
+    transform: translate(-500px, -45px);
+    animation: car1 3s linear infinite;
+}
+
+@keyframes car1 {
+
+    0% {
+        transform: translate(1170px, -45px);
+    }
+
+}
+
+.bikegirl {
+    width: 120px;
+    height: 100px;
+    transform: translate(-800px, -55px);
+    animation: bikegirl 10s linear infinite;
+}
+
+@keyframes bikegirl {
+    0% {
+        transform: translate(1170px, -55px);
+
+    }
+    
+}
+
+.taxi {
+    width: 200px;
+    position: absolute;
+    height: 90px;
+    animation: taxi 5s linear infinite;
+}
+
+@keyframes taxi {
+    0% {
+        transform: translate(-600px, 120px);
+    }
+    100% {
+        transform: translate(1170px, 120px);
+    }
+}
+
+.truck {
+    width: 200px;
+    height: 80px;
+    transform: translate(-700px, -30px);
+    animation: truck 8s linear infinite;
+}
+
+@keyframes truck {
+    100% {
+        transform: translate(1170px, -30px);
+    }
+}
